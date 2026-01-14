@@ -166,6 +166,23 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+--vvv My config settings vvv--
+--
+--
+
+-- Set relative line numbers
+vim.opt.relativenumber = true
+
+-- Set keybind to exit insert mode
+vim.keymap.set('i', 'jk', '<Esc>')
+
+--Set copy / past from clipboard
+vim.opt.clipboard = 'unnamedplus'
+
+--
+--
+--^^^ My config settings ^^^--
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
