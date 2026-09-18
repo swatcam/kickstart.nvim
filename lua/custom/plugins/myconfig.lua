@@ -1,3 +1,7 @@
+require 'kickstart.plugins.indent_line'
+require 'kickstart.plugins.autopairs'
+require 'kickstart.plugins.neo-tree'
+
 -- Set relative line numbers
 vim.opt.relativenumber = true
 
